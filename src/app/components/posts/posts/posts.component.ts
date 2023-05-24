@@ -1,6 +1,6 @@
 import {Component, Input} from '@angular/core';
-import {IPost, IUser} from "../../interfaces";
-import {PostService} from "../../services";
+import {IPost, IUser} from "../../../interfaces";
+import {PostService} from "../../../services";
 
 @Component({
   selector: 'app-posts',

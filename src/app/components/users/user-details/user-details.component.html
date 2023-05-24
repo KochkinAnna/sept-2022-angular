@@ -1,6 +1,6 @@
-<div>id:{{user.id}}</div>
-<div>username:{{user.username}}</div>
-<div>email:{{user.email}}</div>
+<div>
+  {{user|json}}
+</div>
 <button (click)="getPosts()">getPost</button>
 
 <app-posts *ngIf="userId" [userId]="userId"></app-posts>
